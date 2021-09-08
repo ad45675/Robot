@@ -1,0 +1,18 @@
+﻿  main.cpp
+d:\myrobotgroup\ya0\kinect\red_point\red_point\main.cpp(144): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  imageprocess.cpp
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(139): warning C4018: '>': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(141): warning C4244: '=': 將 'unsigned long' 轉換為 'short'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(142): warning C4244: '=': 將 'unsigned long' 轉換為 'short'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(232): warning C4018: '<': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(240): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(314): warning C4018: '<': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(328): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(328): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(377): warning C4244: '=': 將 'float' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(378): warning C4244: '=': 將 'float' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(390): warning C4018: '<': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\red_point\red_point\imageprocess.cpp(479): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  正在產生程式碼...
+  red_point.vcxproj -> D:\MyRobotGroup\ya0\Kinect\red_point\Debug\red_point.exe
+  red_point.vcxproj -> D:\MyRobotGroup\ya0\Kinect\red_point\Debug\red_point.pdb (Partial PDB)

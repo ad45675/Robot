@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\opencv-4.0\build\install\include;D:\opencv-4.0\build\install\include\opencv2;$(KINECTSDK20_DIR)\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv-4.0\build\install\x86\vc14\lib;$(KINECTSDK20_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kinect20.lib;opencv_aruco400d.lib;opencv_bgsegm400d.lib;opencv_bioinspired400d.lib;opencv_calib3d400d.lib;opencv_ccalib400d.lib;opencv_core400d.lib;opencv_datasets400d.lib;opencv_dnn_objdetect400d.lib;opencv_dnn400d.lib;opencv_dpm400d.lib;opencv_face400d.lib;opencv_features2d400d.lib;opencv_flann400d.lib;opencv_fuzzy400d.lib;opencv_gapi400d.lib;opencv_hdf400d.lib;opencv_hfs400d.lib;opencv_highgui400d.lib;opencv_img_hash400d.lib;opencv_imgcodecs400d.lib;opencv_imgproc400d.lib;opencv_line_descriptor400d.lib;opencv_ml400d.lib;opencv_objdetect400d.lib;opencv_optflow400d.lib;opencv_phase_unwrapping400d.lib;opencv_photo400d.lib;opencv_plot400d.lib;opencv_reg400d.lib;opencv_rgbd400d.lib;opencv_saliency400d.lib;opencv_shape400d.lib;opencv_stereo400d.lib;opencv_stitching400d.lib;opencv_structured_light400d.lib;opencv_superres400d.lib;opencv_video400d.lib;opencv_videoio400d.lib;opencv_videostab400d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

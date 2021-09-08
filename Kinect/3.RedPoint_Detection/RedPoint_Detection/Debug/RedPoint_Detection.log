@@ -1,0 +1,14 @@
+﻿  ImageProcess.cpp
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(103): warning C4244: '=': 將 'float' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(104): warning C4244: '=': 將 'float' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(246): warning C4018: '>': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(248): warning C4244: '=': 將 'unsigned long' 轉換為 'short'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(249): warning C4244: '=': 將 'unsigned long' 轉換為 'short'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(354): warning C4018: '<': signed/unsigned 不相符
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(361): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(368): warning C4244: '正在初始化': 將 'float' 轉換為 'std::size_t'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(374): warning C4244: '正在初始化': 將 'float' 轉換為 'std::size_t'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(376): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+d:\myrobotgroup\ya0\kinect\redpoint_detection\redpoint_detection\imageprocess.cpp(390): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  RedPoint_Detection.vcxproj -> D:\MyRobotGroup\ya0\Kinect\RedPoint_Detection\Debug\RedPoint_Detection.exe
+  RedPoint_Detection.vcxproj -> D:\MyRobotGroup\ya0\Kinect\RedPoint_Detection\Debug\RedPoint_Detection.pdb (Partial PDB)
