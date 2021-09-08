@@ -1,0 +1,25 @@
+#ifndef MYROBOT_DRVCOMUNICATEDEF_H
+#define	MYROBOT_DRVCOMUNICATEDEF_H
+
+//command char
+#define CMD_READ_STATUS_DISPLAY 01
+#define CMD_READ_PARAMETER_4 04
+#define CMD_READ_PARAMETER_5 04
+#define CMD_READ_EXTERNAL_IO 04
+#define CMD_READ_ALARM_HISTORY 04
+
+
+//data number
+#define NO_COMULATIVE_FEEDBACK_PULSE 0
+#define NO_SERVO_MOTOR_SPEED 0
+
+#define SOH 0x01
+#define STX 0x02
+#define ETX 0x03
+#define EOT 0x04
+
+#endif
+
+
+
+

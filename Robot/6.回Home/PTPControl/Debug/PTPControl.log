@@ -1,0 +1,115 @@
+﻿已經開始建置於 2021/4/29 下午 04:50:49。
+     1>節點 2 (Rebuild 目標) 上的專案 "D:\MyRobotGroup\亞伶\回Home\PTPControl\PTPControl.vcxproj"。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Control.cpp Initialization.cpp Kinematics.cpp Main.cpp MotionCard.cpp MyRobot_AsyncSerial.cpp MyRobot_DrvComunicate.cpp MyRobot_Protocol.cpp Nozzle.cpp Protection.cpp PTP.cpp ReadData.cpp RobotModel.cpp SaveData.cpp stdafx.cpp Toolbox.cpp
+         Toolbox.cpp
+         stdafx.cpp
+         SaveData.cpp
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\savedata.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+         RobotModel.cpp
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\robotmodel.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\robotmodel.cpp(17): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(237) : 請參閱 'fscanf' 的宣告
+         ReadData.cpp
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\readdata.cpp(36): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         PTP.cpp
+         Protection.cpp
+         Nozzle.cpp
+         MyRobot_Protocol.cpp
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_protocol.cpp(275): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\program files\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 11.0\vc\include\xutility(2157) : 請參閱 'std::_Copy_impl' 的宣告
+                 d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_protocol.cpp(30) : 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::copy<std::_Vector_iterator<_Myvec>,char*>(_InIt,_InIt,_OutIt)' 的參考
+                 with
+                 [
+                     _OutIt=char *,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+         MyRobot_DrvComunicate.cpp
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(259): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(909) : 請參閱 'itoa' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(346): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(350): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(368): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(377): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(381): warning C4244: '引數' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(469): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         MyRobot_AsyncSerial.cpp
+     1>c:\program files\microsoft visual studio 11.0\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 11.0\vc\include\xutility(2157) : 請參閱 'std::_Copy_impl' 的宣告
+                 d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_asyncserial.cpp(183) : 請參閱所要編譯的函式 樣板 具現化 '_OutIt std::copy<std::_Vector_iterator<_Myvec>,T*>(_InIt,_InIt,_OutIt)' 的參考
+                 with
+                 [
+                     _OutIt=char *,
+                     _Myvec=std::_Vector_val<std::_Simple_types<char>>,
+                     T=char,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>
+                 ]
+         MotionCard.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\motioncard.cpp(283): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 請參閱 'getenv' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\motioncard.cpp(292): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 請參閱 'sprintf' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\motioncard.cpp(307): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 請參閱 'getenv' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\motioncard.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(357) : 請參閱 'sprintf' 的宣告
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\motioncard.cpp(328): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+         Main.cpp
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\mat.hpp(1926): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\imgproc.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\imgproc.hpp(617): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\stitching\detail\motion_estimators.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\video\tracking.hpp(540): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\main.cpp(71): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         Kinematics.cpp
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\mat.hpp(1926): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(218) : 請參閱 'fopen' 的宣告
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\imgproc.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\imgproc.hpp(617): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\stitching\detail\motion_estimators.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\函式庫\opencv3-x86\install\include\opencv2\video\tracking.hpp(540): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         Initialization.cpp
+         Control.cpp
+         正在產生程式碼...
+     1>d:\myrobotgroup\亞伶\回home\ptpcontrol\myrobot_drvcomunicate.cpp(329): warning C4715: 'MyRobot_DrvComunicate::char2int' : 不是所有控制路徑都傳回值
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyRobotGroup\亞伶\回Home\Debug\PTPControl.exe" /INCREMENTAL /NOLOGO IMCDriver.lib opencv_aruco320.lib opencv_calib3d320.lib opencv_core320.lib opencv_features2d320.lib opencv_flann320.lib opencv_highgui320.lib opencv_imgcodecs320.lib opencv_imgproc320.lib opencv_ml320.lib opencv_objdetect320.lib opencv_photo320.lib opencv_shape320.lib opencv_stitching320.lib opencv_superres320.lib opencv_video320.lib opencv_videoio320.lib opencv_videostab320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyRobotGroup\亞伶\回Home\Debug\PTPControl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyRobotGroup\亞伶\回Home\Debug\PTPControl.lib" /MACHINE:X86 Debug\Control.obj
+         Debug\Initialization.obj
+         Debug\Kinematics.obj
+         Debug\Main.obj
+         Debug\MotionCard.obj
+         Debug\MyRobot_AsyncSerial.obj
+         Debug\MyRobot_DrvComunicate.obj
+         Debug\MyRobot_Protocol.obj
+         Debug\Nozzle.obj
+         Debug\Protection.obj
+         Debug\PTP.obj
+         Debug\ReadData.obj
+         Debug\RobotModel.obj
+         Debug\SaveData.obj
+         Debug\stdafx.obj
+         Debug\Toolbox.obj
+         PTPControl.vcxproj -> D:\MyRobotGroup\亞伶\回Home\Debug\PTPControl.exe
+     1>專案 "D:\MyRobotGroup\亞伶\回Home\PTPControl\PTPControl.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:23.41
